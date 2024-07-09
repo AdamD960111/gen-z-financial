@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen Z Financial</title>
+    <meta name="description" content="Gen Z Financial - Personal finance tips, resources, and guidance for the Gen Z generation.">
+    <meta name="keywords" content="Gen Z, personal finance, budgeting, credit score, financial freedom">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav ul li a:hover {
+            background-color: #45a049;
+            border-radius: 4px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .cta {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .cta a {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .cta a:hover {
+            background-color: #45a049;
+        }
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .newsletter {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gen Z Financial</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="content">
+                <p>Welcome to Gen Z Financial! I'm Adam, a passionate advocate for financial literacy among the Gen Z generation. My goal is to provide you with the tools and knowledge needed to navigate the complex world of personal finance. From budgeting tips to credit score management, I'm here to help you achieve financial freedom.</p>
+            </div>
+            <div class="cta">
+                <a href="#contact">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="content">
+                <p>Stay tuned for regular updates on personal finance tips, industry news, and insightful articles that will help you take control of your finances.</p>
+            </div>
+            <div class="cta">
+                <a href="#resources">Explore Resources</a>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <div class="content">
+                <p>Explore a curated list of tools and resources designed to help you manage your money better. From budgeting apps to financial planning guides, find everything you need to get started on your financial journey.</p>
+            </div>
+            <div class="cta">
+                <a href="#contact">Contact for More Info</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="content">
+                <p>Have questions or want to get in touch? Feel free to reach out through our contact form below.</p>
+                <form id="contactForm">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <div id="successMessage" style="display:none;color:green;margin-top:10px;">
+                    Thank you! Your message has been sent.
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> |
+            <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a> |
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        </div>
+
+        <!-- Newsletter Signup Form -->
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form action="https://YOUR-MAILCHIMP-URL" method="post">
+                <label for="email">Email:</label><br>
+                <input type="email"
